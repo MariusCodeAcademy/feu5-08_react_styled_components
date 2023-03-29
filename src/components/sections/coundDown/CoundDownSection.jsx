@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Grid from '../../ui/Grid.styled';
 
 const CounDownSection = styled.section`
   display: flex;
@@ -23,6 +24,11 @@ function CoundDownSection() {
       <Title>
         Count Every Second Until the <span>Event</span>
       </Title>
+      <Grid cols="5">
+        <h2>h2</h2>
+        <h2>h2</h2>
+        <h2>h2</h2>
+      </Grid>
     </CounDownSection>
   );
 }
