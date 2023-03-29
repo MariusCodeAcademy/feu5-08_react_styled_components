@@ -18,7 +18,7 @@ const DateVal = styled.p`
 `;
 
 const Button = styled.button`
-  font-size: 2em;
+  font-size: ${(props) => (props.lg ? '3em' : '2em')};
   margin: 1em;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
@@ -33,7 +33,8 @@ function InfoCard() {
     <Wrap>
       <Title>Card title</Title>
       <DateVal>2022-02-22</DateVal>
-      <Button>Click me</Button>
+      <Button>small Click me</Button>
+      <Button lg>Click me</Button>
     </Wrap>
   );
 }

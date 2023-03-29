@@ -1,12 +1,14 @@
 import './styles/reset.css';
 import './styles/App.css';
 import InfoCard from './components/infoCard/InfoCard';
+import CoundDownSection from './components/sections/coundDown/CoundDownSection';
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <h1>Styled components</h1>
-      <InfoCard />
+      {false && <InfoCard />}
+      <CoundDownSection />
     </div>
   );
 }
