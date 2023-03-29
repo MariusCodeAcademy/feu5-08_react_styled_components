@@ -33,7 +33,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 a {
@@ -46,7 +46,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   /* apridboti tik maximalu ploti */
-  max-width: 80rem;
+  max-width: 114rem;
   /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
   margin: 0 auto;
 }
