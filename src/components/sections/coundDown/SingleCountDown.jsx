@@ -12,10 +12,10 @@ const Circle = styled.div`
   flex-direction: column;
 
   border-color: ${(props) => {
-    return props.color || 'black';
+    return props.myColor || 'black';
   }};
   color: ${(props) => {
-    return props.color || 'black';
+    return props.num || 'black';
   }};
 `;
 
@@ -29,9 +29,9 @@ const Title = styled.h3`
   font-weight: normal;
 `;
 
-function SingleCountDown({ time, value, circle }) {
+function SingleCountDown({ time, value, circle, num }) {
   return (
-    <Circle color={circle}>
+    <Circle myColor={circle} num={num}>
       <Value>{value}</Value>
       <Title>{time}</Title>
     </Circle>

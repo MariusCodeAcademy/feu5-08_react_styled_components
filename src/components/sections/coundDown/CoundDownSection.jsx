@@ -27,9 +27,9 @@ function CoundDownSection() {
       </Title>
       <Grid cols="5">
         <SingleCountDown time="Days" value={5} circle="blueviolet" num="red" />
-        <SingleCountDown />
-        <SingleCountDown />
-        <SingleCountDown />
+        <SingleCountDown time="Nights" value={5} circle="green" num="coral" />
+        <SingleCountDown time="Minutes" value={5} circle="gray" num="tomato" />
+        <SingleCountDown time="Days" value={5} circle="blueviolet" num="red" />
       </Grid>
     </CounDownSection>
   );
